@@ -1,4 +1,13 @@
+.outer-container {
+    display:flex;
+}
+
 .nav-container {
-    max-width: 100px;
+    width: 7vw;
+    min-width: 95px;
     height: 100vh;
+}
+
+.view-content-container {
+    margin-left: 15px;
 }
