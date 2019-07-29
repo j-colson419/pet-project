@@ -6,6 +6,9 @@
 
 .profile-feed-container {
     margin-right: 10px;
+    justify-content: left;
+    width: 63vw;
+    max-width: calc(93vw - 250px);
 }
 
 .profile-panel-container {

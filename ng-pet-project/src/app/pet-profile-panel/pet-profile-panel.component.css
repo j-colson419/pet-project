@@ -1,0 +1,35 @@
+.panel-background {
+    padding-top: 10px;
+    background-color: rgb(230, 131, 255);
+
+}
+
+@media (min-height: 256px) {
+    .panel-background {
+      height: 95vh;
+      position: relative;
+    }
+}
+
+@media (max-height: 255px) {
+    .panel-background {
+        height: 245px;
+    }
+}
+
+.panel-image {
+    height: 15vw;
+    width: 15vw;
+    min-height: 75px;
+    min-width: 75px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 7px 9px 21px -10px rgba(0,0,0,1);
+}
+
+.panel-row {
+    margin-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}

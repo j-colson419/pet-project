@@ -1,1 +1,18 @@
-<h1>Profile Panel</h1>
+<div class="container rounded-left panel-background">
+  <div class="row justify-content-center">
+    <div class="col-sm-auto">
+      <div
+        class="panel-image rounded-circle"
+        [style.background-image]="profileImage"
+      ></div>
+    </div>
+  </div>
+  <div class="row justify-content-between panel-row">
+    <div class="col-sm-auto justify-content-start">
+      <span>{{petName}}</span>
+    </div>
+    <div class="col-sm-auto justify-content-end">
+        <span placement="top" ngbTooltip="Last Post">{{lastPostDate | date:'mediumDate'}}</span>
+    </div>
+  </div>
+</div>
