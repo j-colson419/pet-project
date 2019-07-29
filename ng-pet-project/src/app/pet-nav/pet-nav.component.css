@@ -1,0 +1,55 @@
+.nav-background {
+  background-color: rgb(56, 226, 136);
+  padding-right: 5px;
+}
+
+.nav-top-row {
+  padding-top: 50px;
+}
+
+@media (min-height: 256px) {
+  .nav-background {
+    height: 95vh;
+    position: relative;
+  }
+  .nav-bottom-row {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    position: absolute;
+    bottom: 5px;
+    right: 28px;
+  }
+}
+
+@media (max-height: 255px) {
+    .nav-background {
+        height: 245px;
+    }
+  .nav-bottom-row {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+}
+
+.nav-icon-col {
+  padding: 5px;
+  margin: 5px;
+  color: white;
+}
+
+.nav-icon-tooltip .tooltip-inner {
+  background-color: white;
+  color: black;
+  font-size: 85%;
+  font-weight: bold;
+}
+
+.nav-icon-tooltip .arrow::before {
+  border-top-color: white;
+}
+
+.nav-btn:hover {
+  color: rgb(56, 226, 136);
+  background-color: white;
+  border-color: rgb(56, 226, 136);
+}
