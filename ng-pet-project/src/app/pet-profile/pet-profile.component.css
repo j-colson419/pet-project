@@ -1,0 +1,15 @@
+.profile-component-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.profile-feed-container {
+    margin-right: 10px;
+}
+
+.profile-panel-container {
+    margin-left: 10px;
+    width: 30vw;
+    min-width: 250px;
+}

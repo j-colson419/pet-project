@@ -6,12 +6,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PetProfileComponent } from './pet-profile/pet-profile.component';
 import { PetNavComponent } from './pet-nav/pet-nav.component';
+import { PetProfilePanelComponent } from './pet-profile-panel/pet-profile-panel.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PetProfileComponent,
-    PetNavComponent
+    PetNavComponent,
+    PetProfilePanelComponent
   ],
   imports: [
     BrowserModule,

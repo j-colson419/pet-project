@@ -10,4 +10,6 @@
 
 .view-content-container {
     margin-left: 15px;
+    width: 93vw;
+    max-width: calc(100vw - 95px);
 }
