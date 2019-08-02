@@ -1,0 +1,28 @@
+<div class="new-post-box">
+  <div class="new-post-content ">
+    <textarea
+      rows="3"
+      cols="50"
+      spellcheck="true"
+      autocapitalize="sentences"
+      name="newPostContent"
+      placeholder="What cute thing did they do now?"
+    ></textarea>
+    <div class="button-container">
+      <div>
+        <input
+          type="file"
+          style="display:none"
+          #imageInput
+          (change)="onFileChanged($event)"
+        />
+        <button class="btn btn-outline img-btn" (click)="imageInput.click()">
+          <i class="fa fa-plus"></i>
+        </button>
+      </div>
+      <div>
+        <button type="button" class="btn btn-success" (click)="post()">Share!</button>
+      </div>
+    </div>
+  </div>
+</div>

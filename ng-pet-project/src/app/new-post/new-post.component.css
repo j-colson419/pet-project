@@ -1,0 +1,41 @@
+.new-post-box {
+  border-color: rgb(148, 148, 148);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+46,afe0c6+81,38e288+100&0+45,0+45,0.8+98 */
+  
+}
+
+.new-post-content {
+  margin: 10px;
+}
+
+textarea {
+    resize: none;
+    border: none;
+    border-bottom: 2px solid rgb(148, 148, 148);
+    border-radius: 1px;
+    width: 35vw;
+    height: auto;
+    min-height: 50px;
+}
+
+textarea:focus {
+    outline: 1px solid rgb(148, 148, 148);
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.img-btn {
+  color: rgb(56, 226, 136);
+  background-color: white;
+  border-color: rgb(56, 226, 136);
+}
