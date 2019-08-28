@@ -9,6 +9,7 @@ import { PetNavComponent } from './pet-nav/pet-nav.component';
 import { PetProfilePanelComponent } from './pet-profile-panel/pet-profile-panel.component';
 import { PetFeedComponent } from './pet-feed/pet-feed.component';
 import { NewPostComponent } from './new-post/new-post.component';
+import { PetPostComponent } from './pet-post/pet-post.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { NewPostComponent } from './new-post/new-post.component';
     PetNavComponent,
     PetProfilePanelComponent,
     PetFeedComponent,
-    NewPostComponent
+    NewPostComponent,
+    PetPostComponent
   ],
   imports: [
     BrowserModule,
